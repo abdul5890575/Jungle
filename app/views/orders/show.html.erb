@@ -6,7 +6,7 @@
   
 
   <div class="order-summary jumbotron">
-    <h4>Thank you for your order! <%= @order.id %> </h4>
+    <h4>Thank you for your order! <%= @order.email %> </h4>
   </div>
 
   <% @order.line_items.each do |item| %>
