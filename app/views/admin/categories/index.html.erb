@@ -1,0 +1,10 @@
+<h1>Admin Categories Page</h1>
+
+<div class="well">
+<%= link_to '+Add Category', new_admin_category_path , class: 'btn btn-info' %>
+</div>
+
+<%  @categories.each do |element| %>
+  <li> <%= element.name %></li>  
+<% end %>
+    
