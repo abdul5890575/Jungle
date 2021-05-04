@@ -45,6 +45,9 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'quiet_assets'
   gem 'dotenv-rails'
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
 end
 
 group :development do
