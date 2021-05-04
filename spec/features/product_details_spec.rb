@@ -16,15 +16,15 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
     end
   end
 
-  scenario "See products details" do
-    # ACT
-    visit root_path
+  # scenario "See products details" do
+  #   # ACT
+  #   visit root_path
   
-    # DEBUG
-    first('.product').click_link("Details")
-    expect(page).to have_css('.products-show')
-    save_screenshot "productdetails1.png"
-  end
+  #   # DEBUG
+  #   first('.product').click_link("Details")
+  #   expect(page).to have_css('.products-show')
+  #   save_screenshot "productdetails1.png"
+  # end
 
 
 end
